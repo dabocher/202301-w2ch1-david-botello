@@ -21,7 +21,9 @@
   },
   "homepage": "https://github.com/dabocher/202301-w2ch1-david-botello#readme",
   "dependencies": {
-    "husky": "^8.0.3"
+    "husky": "^8.0.3",
+    "parcel": "^2.8.2",
+    "rimraf": "^4.0.7"
   },
   "devDependencies": {
     "husky": "^8.0.0"

@@ -1,0 +1,29 @@
+{
+  "name": "202301-w2ch1-david-botello",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "prepare": "husky install",
+    "prebuild": "rimraf dist/",
+    "prebuild:dev": "rimraf dist/",
+    "build": "parcel build src/index.html",
+    "build:dev": "parcel src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dabocher/202301-w2ch1-david-botello.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dabocher/202301-w2ch1-david-botello/issues"
+  },
+  "homepage": "https://github.com/dabocher/202301-w2ch1-david-botello#readme",
+  "dependencies": {
+    "husky": "^8.0.3"
+  },
+  "devDependencies": {
+    "husky": "^8.0.0"
+  }
+}

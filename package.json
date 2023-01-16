@@ -21,11 +21,14 @@
   },
   "homepage": "https://github.com/dabocher/202301-w2ch1-david-botello#readme",
   "dependencies": {
+    "@fontsource/fraunces": "^4.5.10",
+    "@fontsource/montserrat": "^4.5.13",
     "husky": "^8.0.3",
     "parcel": "^2.8.2",
     "rimraf": "^4.0.7"
   },
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.2",
     "husky": "^8.0.0"
   }
 }

@@ -2,17 +2,43 @@
 
 .card-container {
   margin: 0;
-  padding: 1.5rem;
+  padding: 1.5rem 0.5rem;
   display: flex;
-  align-items: center;
+  width: 23.44rem;
   justify-content: center;
-
   background: variables.$color-primary-light;
 }
-.card-parfum {
-  height: auto;
+.card {
+  border-radius: 10px;
+  width: 20.44rem;
+  .card * {
+    margin: 0;
+  }
+  &__image {
+    width: 100%;
+  }
+  .card-text {
+    padding: 0.5rem 1.5rem;
+    background: #fff;
+    &__parfum-text-name {
+      margin: 0;
+    }
+    &__parfum-text-description {
+      margin: 0 0 1.5rem 0;
+    }
+    &__price-discount {
+      margin-right: 1rem;
+    }
+  }
 }
 
-.card__text-container {
-  padding: 0.5rem 1.5rem;
+.card-text__button {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 5rem;
+  background: variables.$color-primary-accent;
+  border: none;
+  text-align: center;
+  margin: 1rem 0;
+  border-radius: 5px;
 }

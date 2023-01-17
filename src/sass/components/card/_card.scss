@@ -1,5 +1,18 @@
 @use "../../variables/variables";
-.card {
+
+.card-container {
+  margin: 0;
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   background: variables.$color-primary-light;
-  height: 100vh;
+}
+.card-parfum {
+  height: auto;
+}
+
+.card__text-container {
+  padding: 0.5rem 1.5rem;
 }
